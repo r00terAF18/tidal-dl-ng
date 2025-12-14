@@ -102,7 +102,7 @@ class HelpSettings:
         "The directory of `ffmpeg.exe` must be set in %PATH%."
     )
     metadata_cover_dimension: str = (
-        "The dimensions of the cover image embedded into the track. Possible values: 320x320, 640x640, 1280x1280."
+        "The square dimensions of the cover image embedded into the track. Possible values: 80, 160, 320, 640, 1280, origin."
     )
     metadata_cover_embed: str = "Embed album cover into file."
     mark_explicit: str = "Mark explicit tracks with '🅴' in track title (only applies to metadata)."
